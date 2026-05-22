@@ -7,11 +7,16 @@ function App() {
   const [posts, setPosts] = useState<Post[]>([
     {
       id: 1,
+      title: '마지막 튜터링 화이팅',
+      content: '화이팅입니다~',
+    },
+    {
+      id: 2,
       title: '첫 번째 게시글',
       content: 'React로 만든 게시판입니다.',
     },
     {
-      id: 2,
+      id: 3,
       title: '두 번째 게시글',
       content: '컴포넌트와 state를 연습해봅니다.',
     },
